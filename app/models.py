@@ -1,6 +1,6 @@
 from sqlalchemy import Table, Column, Integer, String, Boolean, ForeignKey, Text
 from sqlalchemy.sql import func
-from database import metadata, engine
+from app.database import metadata, engine
 
 videos = Table(
     "videos",
